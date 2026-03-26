@@ -24,6 +24,7 @@ function App() {
   const destacadosRef = useRef<HTMLElement>(null)
   const sobreNosotrosRef = useRef<HTMLElement>(null)
   const searchBarRef = useRef<HTMLElement>(null)
+  const categoryFilterRef = useRef<HTMLElement>(null)
   const productsRef = useRef<HTMLElement>(null)
 
   // hooks correctos
@@ -31,6 +32,7 @@ function App() {
   const destacadosVisible = useInView(destacadosRef)
   const sobreNosotrosVisible = useInView(sobreNosotrosRef)
   const searchVisible = useInView(searchBarRef)
+  const categoryFilterVisible = useInView(categoryFilterRef)
   const productsVisible = useInView(productsRef)
 
   return (
@@ -57,10 +59,12 @@ function App() {
           setSearchTerm={setSearchTerm}
           isVisible={searchVisible}
         />
-        
+      </section>
+
+      <section ref={categoryFilterRef} className='px-4 sm:px-6 lg:px-8 py-4'>
         {/* Category Filter */}
         <div className={`transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] ${
-          searchVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
+          categoryFilterVisible || searchVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
         }`}>
           <CategoryFilter 
             selectedCategory={selectedCategory}

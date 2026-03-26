@@ -33,9 +33,33 @@ Each product has the following structure:
   "subtitle": "Product description",
   "image": "/path/to/image.jpg",
   "buttonText": "Encargar Ahora",
-  "category": "postres|dulces|pasteles|especiales"
+  "category": "tentaciones|postres|tortas",
+  "imagePosition": "20% 80% | top | center | bottom | left | right | cover"
 }
 ```
+
+### Image Position Options:
+
+#### **Percentage-based positioning** (recommended for precise control):
+- **"20% 30%"**: 20% from left, 30% from top
+- **"50% 50%"**: Center (same as "center")
+- **"80% 20%"**: 80% from left, 20% from top
+- **"0% 0%"**: Top-left corner
+- **"100% 100%"**: Bottom-right corner
+
+#### **Predefined positions** (quick options):
+- **"top"**: Aligns image to the top
+- **"center"**: Centers image
+- **"bottom"**: Aligns image to the bottom
+- **"left"**: Aligns image to the left
+- **"right"**: Aligns image to the right
+- **"cover"**: Fills entire container (default)
+
+#### **How percentages work**:
+- First value: **X-axis** (horizontal position)
+- Second value: **Y-axis** (vertical position)
+- Range: **0% to 100%** for both axes
+- Example: `"30% 70%"` = 30% from left, 70% from top
 
 ## 🎯 File Purposes
 

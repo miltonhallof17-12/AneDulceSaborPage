@@ -1,50 +1,56 @@
 [
   {
-    "id": "tortas-clasicas",
-    "title": "Tortas Clásicas",
-    "subtitle": "Recetas tradicionales pasadas por generaciones",
-    "image": "https://picsum.photos/seed/torta1/400/300.jpg",
+    "id": "cheesecakes-frutos-rojos",
+    "title": "Cheesecakes Frutos Rojos",
+    "subtitle": "Cheesecakes con frescos frutos rojos",
+    "image": "/CheeseCake-FrutosRojos-Porcion.webp",
     "buttonText": "Encargar Ahora",
-    "category": "tortas"
+    "category": "tortas",
+    "imagePosition": "50% 40%"
   },
   {
-    "id": "dulces-especiales",
-    "title": "Dulces Especiales",
-    "subtitle": "Dulces especiales para ocasiones y celebraciones",
-    "image": "https://picsum.photos/seed/dulce1/400/300.jpg",
+    "id": "rogel-dulce-de-leche",
+    "title": "Rogel Dulce de Leche",
+    "subtitle": "Capas de rogel con dulce de leche y merengue italiano",
+    "image": "/Rogel-DulceDeLeche-Porcion.webp",
     "buttonText": "Encargar Ahora",
-    "category": "tentaciones"
+    "category": "tortas",
+    "imagePosition": "20% 20%"
   },
   {
-    "id": "postres-gourmet",
-    "title": "Postres Gourmet",
-    "subtitle": "Postres gourmet con ingredientes premium",
-    "image": "https://picsum.photos/seed/gourmet1/400/300.jpg",
+    "id": "torta-helada-cadbury",
+    "title": "Torta Helada Cadbury",
+    "subtitle": "Torta Helada Cadbury con capas de chocolate y crema",
+    "image": "/Torta-Helada-Cadbury-Porcion.webp",
     "buttonText": "Encargar Ahora",
-    "category": "postres"
+    "category": "postres",
+    "imagePosition": "70% 80%"
   },
   {
-    "id": "creaciones-unicas",
-    "title": "Creaciones Únicas",
-    "subtitle": "Creaciones únicas que combinan tradición e innovación",
-    "image": "https://picsum.photos/seed/unico1/400/300.jpg",
+    "id": "brownie-kinder-bueno",
+    "title": "Brownie Kinder Bueno",
+    "subtitle": "Brownie Kinder Bueno con capas de chocolate y crema",
+    "image": "/brownie-kinder-bueno.webp",
     "buttonText": "Encargar Ahora",
-    "category": "tentaciones"
+    "category": "postres",
+    "imagePosition": "center"
   },
   {
-    "id": "pasteles-chocolate",
-    "title": "Pasteles de Chocolate",
-    "subtitle": "Pasteles de chocolate ricos para amantes del chocolate",
-    "image": "https://picsum.photos/seed/chocolate1/400/300.jpg",
+    "id": "mini-postres",
+    "title": "Mini Postres",
+    "subtitle": "Tiramisu-Crema oreo-Chocotorta-Crema de limón-Torta Matilda",
+    "image": "/mini-postres.webp",
     "buttonText": "Encargar Ahora",
-    "category": "tortas"
+    "category": "tentaciones",
+    "imagePosition": "50% 60%"
   },
   {
-    "id": "postres-frutas",
-    "title": "Postres de Frutas",
-    "subtitle": "Postres frescos de frutas con ingredientes de temporada",
-    "image": "https://picsum.photos/seed/frutas1/400/300.jpg",
+    "id": "mini-cakes",
+    "title": "Mini Cakes",
+    "subtitle": "Lemon pie-Cheesecake-Brownie-Rogel-Torta de coco",
+    "image": "/mini-cakes.webp",
     "buttonText": "Encargar Ahora",
-    "category": "postres"
+    "category": "tentaciones",
+    "imagePosition": "80% 20%"
   }
 ]
