@@ -1,73 +1,56 @@
-# React + TypeScript + Vite
+# Ane Dulce Sabor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación web React para la pastelería "Ane Dulce Sabor" con carruseles interactivos y diseño moderno.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Carrusel Hero**: Presentación de productos principales con auto-scroll
+- **Destacados**: Carruseles infinitos de productos destacados
+- **Catálogo de Productos**: Grid de productos con búsqueda
+- **Diseño Responsivo**: Optimizado para todos los dispositivos
+- **Animaciones Suaves**: Transiciones y efectos visuales atractivos
 
-## React Compiler
+## Tecnologías
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 18** con TypeScript
+- **Vite** para desarrollo rápido
+- **Tailwind CSS** para estilos
+- **Hooks personalizados** para carruseles y detección de visibilidad
 
-## Expanding the ESLint configuration
+## Instalación
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Scripts
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- `npm run dev` - Iniciar servidor de desarrollo
+- `npm run build` - Construir para producción
+- `npm run preview` - Previsualizar build de producción
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Componentes
+
+- **Hero**: Carrusel principal con productos destacados
+- **Destacados**: Carrusel infinito con scroll continuo
+- **ProductCard**: Tarjeta individual de producto
+- **Footer**: Pie de página con información de contacto
+
+## Hooks Personalizados
+
+- `useCarousel`: Gestión de carruseles con auto-scroll
+- `useInView`: Detección de elementos visibles en pantalla
+
+## Estructura del Proyecto
+
 ```
+src/
+├── components/     # Componentes React
+├── hooks/         # Hooks personalizados
+├── App.tsx        # Componente principal
+└── main.tsx       # Punto de entrada
+```
+
+## Despliegue
+
+Este proyecto está desplegado en: [GitHub Pages](https://miltonhallof17-12.github.io/AneDulceSaborPage/)
