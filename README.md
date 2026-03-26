@@ -53,4 +53,4 @@ src/
 
 ## Despliegue
 
-Este proyecto está desplegado en: [GitHub Pages](https://miltonhallof17-12.github.io/AneDulceSaborPage/)
+Este proyecto está desplegado en: [Netlify](https://ane-dulce-sabor.netlify.app/)

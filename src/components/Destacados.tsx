@@ -1,47 +1,18 @@
 import { useEffect, useState, useRef } from 'react'
 import GlowingButton from './GlowingButton'
+import type { Product } from '../types/product'
+import { getFeaturedProducts } from '../services/productService'
 
 interface DestacadosProps {
   isVisible: boolean
-}
-
-interface Product {
-  title: string
-  subtitle: string
-  image: string
-  buttonText: string
 }
 
 const Destacados = ({ isVisible }: DestacadosProps) => {
   const [cardPositions, setCardPositions] = useState<number[]>([])
   const animationRef = useRef<number | null>(null)
 
-  const products: Product[] = [
-    {
-      title: "Sobre Nosotros",
-      subtitle: "Handcrafted with finest ingredients...",
-      image: "/CheeseCake-FrutosRojos-Porcion.webp",
-      buttonText: "Encargar Ahora",
-    },
-    {
-      title: "Postres Frescos",
-      subtitle: "Baked fresh every morning...",
-      image: "/Alafajores-Artesanales-DulceDeLeche.webp",
-      buttonText: "Encargar Ahora",
-    },
-    {
-      title: "Pasteles Artesanales",
-      subtitle: "Our artisanal cakes are made with love...",
-      image: "/MiniCakes-Artesanales.webp",
-      buttonText: "Encargar Ahora",
-    },
-    {
-      title: "Delicias Exclusivas",
-      subtitle: "Discover our exclusive collection...",
-      image: "/CheeseCake-FrutosRojos-Artesanal.webp",
-      buttonText: "Encargar Ahora",
-    },
-  ]
+  // Use JSON data instead of hardcoded products
+  const products = getFeaturedProducts()
 
   // Initialize positions
   useEffect(() => {
@@ -80,7 +51,7 @@ const Destacados = ({ isVisible }: DestacadosProps) => {
 
   return (
     <section
-      className={`overflow-hidden py-16 transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] ${
+      className={`py-16 transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
       }`}
     >
@@ -92,7 +63,7 @@ const Destacados = ({ isVisible }: DestacadosProps) => {
       </div>
 
       {/* CONTENEDOR */}
-      <div className="relative w-full overflow-hidden">
+      <div className="relative w-full">
         
         {/* TRACK */}
         <div className="relative h-64">

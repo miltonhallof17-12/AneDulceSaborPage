@@ -1,0 +1,50 @@
+[
+  {
+    "id": "tortas-clasicas",
+    "title": "Tortas Clásicas",
+    "subtitle": "Recetas tradicionales pasadas por generaciones",
+    "image": "https://picsum.photos/seed/torta1/400/300.jpg",
+    "buttonText": "Encargar Ahora",
+    "category": "tortas"
+  },
+  {
+    "id": "dulces-especiales",
+    "title": "Dulces Especiales",
+    "subtitle": "Dulces especiales para ocasiones y celebraciones",
+    "image": "https://picsum.photos/seed/dulce1/400/300.jpg",
+    "buttonText": "Encargar Ahora",
+    "category": "tentaciones"
+  },
+  {
+    "id": "postres-gourmet",
+    "title": "Postres Gourmet",
+    "subtitle": "Postres gourmet con ingredientes premium",
+    "image": "https://picsum.photos/seed/gourmet1/400/300.jpg",
+    "buttonText": "Encargar Ahora",
+    "category": "postres"
+  },
+  {
+    "id": "creaciones-unicas",
+    "title": "Creaciones Únicas",
+    "subtitle": "Creaciones únicas que combinan tradición e innovación",
+    "image": "https://picsum.photos/seed/unico1/400/300.jpg",
+    "buttonText": "Encargar Ahora",
+    "category": "tentaciones"
+  },
+  {
+    "id": "pasteles-chocolate",
+    "title": "Pasteles de Chocolate",
+    "subtitle": "Pasteles de chocolate ricos para amantes del chocolate",
+    "image": "https://picsum.photos/seed/chocolate1/400/300.jpg",
+    "buttonText": "Encargar Ahora",
+    "category": "tortas"
+  },
+  {
+    "id": "postres-frutas",
+    "title": "Postres de Frutas",
+    "subtitle": "Postres frescos de frutas con ingredientes de temporada",
+    "image": "https://picsum.photos/seed/frutas1/400/300.jpg",
+    "buttonText": "Encargar Ahora",
+    "category": "postres"
+  }
+]

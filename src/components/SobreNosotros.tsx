@@ -1,8 +1,14 @@
 import GlowingButton from './GlowingButton'
 
-const SobreNosotros = () => {
+interface SobreNosotrosProps {
+  isVisible: boolean
+}
+
+const SobreNosotros = ({ isVisible }: SobreNosotrosProps) => {
   return (
-    <section className="container mx-auto py-20">
+    <section className={`container mx-auto py-20 transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] ${
+      isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
+    }`}>
       <div className="flex flex-col lg:flex-row items-center gap-12">
         
         {/* Imagen */}
@@ -10,6 +16,7 @@ const SobreNosotros = () => {
           <img 
             src="/Logo-AneDulce.webp"
             alt="Sobre Nosotros"
+            className="w-full h-auto"
           />
         </div>
 
@@ -24,9 +31,11 @@ const SobreNosotros = () => {
             cuidando cada detalle para que cada bocado sea especial.
           </p>
 
-          <GlowingButton>
-            Conocé más
-          </GlowingButton>
+          <div className="flex justify-center lg:justify-start">
+            <GlowingButton>
+              Conocé más
+            </GlowingButton>
+          </div>
         </div>
       </div>
     </section>

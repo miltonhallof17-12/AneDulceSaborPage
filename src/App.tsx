@@ -5,35 +5,31 @@ import ContactButtons from './components/ContactButtons'
 import Destacados from './components/Destacados'
 import SobreNosotros from './components/SobreNosotros'
 import SearchBar from './components/SearchBar'
+import CategoryFilter from './components/CategoryFilter'
 import ProductsGrid from './components/ProductsGrid'
 import Footer from './components/Footer'
 import useInView from './hooks/useInView'
+import { searchProducts, getFilteredProducts } from './services/productService'
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('')
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(null)
   
-  const products = [
-    { id: 1, name: 'Chocolate Cake', image: 'https://picsum.photos/seed/cake1/400/300.jpg' },
-    { id: 2, name: 'Vanilla Cookies', image: 'https://picsum.photos/seed/cookies1/400/300.jpg' },
-    { id: 3, name: 'Strawberry Tart', image: 'https://picsum.photos/seed/tart1/400/300.jpg' },
-    { id: 4, name: 'Brownies', image: 'https://picsum.photos/seed/brownies1/400/300.jpg' },
-    { id: 5, name: 'Cupcakes', image: 'https://picsum.photos/seed/cupcakes1/400/300.jpg' },
-    { id: 6, name: 'Cheesecake', image: 'https://picsum.photos/seed/cheesecake1/400/300.jpg' }
-  ]
-
-  const filteredProducts = products.filter(product =>
-    product.name.toLowerCase().includes(searchTerm.toLowerCase())
-  )
+  // Filter products by category first, then by search term
+  const categoryFilteredProducts = getFilteredProducts(selectedCategory)
+  const filteredProducts = searchTerm ? searchProducts(searchTerm) : categoryFilteredProducts
 
   // refs
   const heroRef = useRef<HTMLElement>(null)
   const destacadosRef = useRef<HTMLElement>(null)
+  const sobreNosotrosRef = useRef<HTMLElement>(null)
   const searchBarRef = useRef<HTMLElement>(null)
   const productsRef = useRef<HTMLElement>(null)
 
   // hooks correctos
   const heroVisible = useInView(heroRef)
   const destacadosVisible = useInView(destacadosRef)
+  const sobreNosotrosVisible = useInView(sobreNosotrosRef)
   const searchVisible = useInView(searchBarRef)
   const productsVisible = useInView(productsRef)
 
@@ -51,8 +47,8 @@ function App() {
         <Destacados isVisible={destacadosVisible} />
       </section>
 
-      <section className='px-4 sm:px-6 lg:px-8'>
-        <SobreNosotros />
+      <section ref={sobreNosotrosRef} className='px-4 sm:px-6 lg:px-8'>
+        <SobreNosotros isVisible={sobreNosotrosVisible} />
       </section>
 
       <section ref={searchBarRef} className='px-4 sm:px-6 lg:px-8'>
@@ -61,6 +57,16 @@ function App() {
           setSearchTerm={setSearchTerm}
           isVisible={searchVisible}
         />
+        
+        {/* Category Filter */}
+        <div className={`transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] ${
+          searchVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
+        }`}>
+          <CategoryFilter 
+            selectedCategory={selectedCategory}
+            onCategoryChange={setSelectedCategory}
+          />
+        </div>
       </section>
 
       <section ref={productsRef} className='px-4 sm:px-6 lg:px-8'>
