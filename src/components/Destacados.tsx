@@ -102,7 +102,7 @@ const Destacados = ({ isVisible }: DestacadosProps) => {
             return (
               <div
                 key={index}
-                className="absolute min-w-[250px] sm:min-w-[300px] bg-[#faeab7] rounded-xl overflow-hidden shadow-md"
+                className="absolute w-[300px] bg-[#faeab7] rounded-xl overflow-hidden shadow-md"
                 style={{
                   transform: `translateX(${cardPositions[index] || 0}px)`,
                 }}

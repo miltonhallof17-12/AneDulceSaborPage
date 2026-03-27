@@ -2,7 +2,7 @@
   {
     "id": "cheesecake-frutos-rojos",
     "title": "Cheesecake Frutos Rojos",
-    "subtitle": "Delicioso cheesecake con frescos frutos rojos",
+    "subtitle": "cheesecake con frescos frutos rojos",
     "image": "/CheeseCake-FrutosRojos-Porcion.webp",
     "buttonText": "Encargar Ahora",
     "imagePosition": "40% 40%"
@@ -43,7 +43,7 @@
     "id": "brownie-kinder-bueno",
     "title": "Brownie Kinder Bueno",
     "subtitle": "Delicioso brownie con Kinder Bueno",
-    "image": "/brownie-kinder-bueno.webp",
+    "image": "/Brownie-Kinder-Bueno.webp",
     "buttonText": "Encargar Ahora",
     "imagePosition": "70% 30%"
   },

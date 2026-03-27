@@ -3,7 +3,7 @@
     "id": "cheesecakes-frutos-rojos",
     "title": "Cheesecakes Frutos Rojos",
     "subtitle": "Cheesecakes con frescos frutos rojos",
-    "image": "/CheeseCake-FrutosRojos-Porcion.webp",
+    "image": "/CheeseCake-FrutosRojos-Mordido.webp",
     "buttonText": "Encargar Ahora",
     "category": "tortas",
     "imagePosition": "50% 40%"
@@ -12,46 +12,46 @@
     "id": "alfajores-artesanales",
     "title": "Alfajores Artesanales",
     "subtitle": "Alfajores Artesanales con capas de chocolate y crema",
-    "image": "/alfajores-artesanales.webp",
+    "image": "/Alafajores-Artesanales-DulceDeLeche.webp",
     "buttonText": "Encargar Ahora",
     "category": "tentaciones",
-    "imagePosition": "80% 20%"
+    "imagePosition": "80% 35%"
   },
   {
     "id": "torta-helada-cadbury",
     "title": "Torta Helada Cadbury",
     "subtitle": "Torta Helada Cadbury con capas de chocolate y crema",
-    "image": "/Torta-Helada-Cadbury-Porcion.webp",
+    "image": "/Torta-Helada-Cadbury.webp",
     "buttonText": "Encargar Ahora",
     "category": "postres",
-    "imagePosition": "70% 80%"
+    "imagePosition": "30% 40%"
   },
   {
     "id": "brownie-kinder-bueno",
     "title": "Brownie Kinder Bueno",
     "subtitle": "Brownie Kinder Bueno con capas de chocolate y crema",
-    "image": "/brownie-kinder-bueno.webp",
+    "image": "/Brownie-Kinder-Bueno.webp",
     "buttonText": "Encargar Ahora",
     "category": "postres",
-    "imagePosition": "center"
+    "imagePosition": "100% 40%"
   },
   {
     "id": "mini-postres",
     "title": "Mini Postres",
     "subtitle": "Tiramisu-Crema oreo-Chocotorta-Crema de limón-Torta Matilda",
-    "image": "/mini-postres.webp",
+    "image": "/Mini-Postres.webp",
     "buttonText": "Encargar Ahora",
     "category": "tentaciones",
-    "imagePosition": "50% 60%"
+    "imagePosition": "50% 40%"
   },
   {
     "id": "mini-cakes",
     "title": "Mini Cakes",
     "subtitle": "Lemon pie-Cheesecake-Brownie-Rogel-Torta de coco",
-    "image": "/mini-cakes.webp",
+    "image": "/Mini-Cakes-Bandeja.webp",
     "buttonText": "Encargar Ahora",
     "category": "tentaciones",
-    "imagePosition": "80% 20%"
+    "imagePosition": "80% 60%"
   },
   {
     "id": "chocotorta",
@@ -66,19 +66,19 @@
     "id": "torta-blanco-negro",
     "title": "Torta Blanco-Negro",
     "subtitle": "Torta Blanco-Negro con capas de chocolate y crema",
-    "image": "/torta-blanco-negro.webp",
+    "image": "/Torta-Blanco-Negro.webp",
     "buttonText": "Encargar Ahora",
     "category": "tortas",
-    "imagePosition": "80% 20%"
+    "imagePosition": "80% 40%"
   },
   {
     "id": "torta-ricota",
     "title": "Torta Ricota",
     "subtitle": "Torta Ricota con capas de chocolate y crema",
-    "image": "/torta-ricota.webp",
+    "image": "/Torta-Ricota.webp",
     "buttonText": "Encargar Ahora",
     "category": "tortas",
-    "imagePosition": "80% 20%"
+    "imagePosition": "80% 30%"
   },
   {
     "id": "rogel-dulce-de-leche",

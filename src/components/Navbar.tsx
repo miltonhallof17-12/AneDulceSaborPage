@@ -1,5 +1,7 @@
 
 
+import { Link } from 'react-router-dom'
+
 const Navbar = () => {
   return (
     <nav className="bg-[#D85C56] p-4 shadow-md -mx-4 sm:-mx-6 lg:-mx-8">
@@ -14,9 +16,30 @@ const Navbar = () => {
           <h1 className="text-xl sm:text-2xl font-bold text-white">Ane Dulce Sabor</h1>
         </div>
         <div className="flex space-x-4 sm:space-x-6">
-          <a href="#" className="text-white hover:text-pink-100 text-sm sm:text-base">Productos</a>
-          <a href="#" className="text-white hover:text-pink-100 text-sm sm:text-base">Nosotros</a>
-          <a href="#" className="text-white hover:text-pink-100 text-sm sm:text-base">Contacto</a>
+          <Link 
+            to="/" 
+            className="text-white hover:text-pink-100 text-sm sm:text-base transition-colors"
+          >
+            Inicio
+          </Link>
+          <Link 
+            to="/products" 
+            className="text-white hover:text-pink-100 text-sm sm:text-base transition-colors"
+          >
+            Productos
+          </Link>
+          <a 
+            href="#sobre-nosotros" 
+            className="text-white hover:text-pink-100 text-sm sm:text-base transition-colors"
+          >
+            Nosotros
+          </a>
+          <a 
+            href="#contacto" 
+            className="text-white hover:text-pink-100 text-sm sm:text-base transition-colors"
+          >
+            Contacto
+          </a>
         </div>
       </div>
     </nav>
