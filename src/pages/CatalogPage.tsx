@@ -51,7 +51,7 @@ const CatalogPage = () => {
         image="/Logo.webp"
       />
       
-      {/* <StructuredData type="ItemList" data={itemListData} /> */}
+      <StructuredData type="ItemList" data={itemListData} />
       
       <div className="min-h-screen bg-[#f5efe6] overflow-x-hidden">
         <ProductsNavbar />

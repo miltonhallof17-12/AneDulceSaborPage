@@ -84,28 +84,28 @@
     "id": "rogel-dulce-de-leche",
     "title": "Rogel Dulce de Leche",
     "subtitle": "Capas de rogel con dulce de leche y merengue italiano",
-    "image": "/Rogel-DulceDeLeche-Porcion.webp",
+    "image": "/Rogel.webp",
     "buttonText": "Encargar Ahora",
     "category": "tortas",
-    "imagePosition": "20% 20%"
+    "imagePosition": "20% 70%"
   },
   {
     "id": "cookies-artesanales",
     "title": "Cookies Artesanales",
     "subtitle": "Cookies Artesanales con capas de chocolate y crema",
-    "image": "/cookies-artesanales.webp",
+    "image": "/Cookies-Artesanales.webp",
     "buttonText": "Encargar Ahora",
     "category": "tentaciones",
-    "imagePosition": "80% 20%"
+    "imagePosition": "80% 25%"
   },
   {
     "id": "torta-chaja",
     "title": "Torta Chaja",
     "subtitle": "Torta Chaja con capas de chocolate y crema",
-    "image": "/torta-chaja.webp",
+    "image": "/Torta-Chaja.webp",
     "buttonText": "Encargar Ahora",
     "category": "tentaciones",
-    "imagePosition": "80% 20%"
+    "imagePosition": "80% 40%"
   }
 ]
 

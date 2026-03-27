@@ -1,8 +1,6 @@
-
-
 import { Link } from 'react-router-dom'
 
-const Navbar = () => {
+const ProductsNavbar = () => {
   return (
     <nav className="bg-[#D85C56] p-4 shadow-md -mx-4 sm:-mx-6 lg:-mx-8">
       <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center px-4 sm:px-6 lg:px-8">
@@ -34,12 +32,6 @@ const Navbar = () => {
             Catálogo
           </Link>
           <a 
-            href="#sobre-nosotros" 
-            className="text-white hover:text-pink-100 text-sm sm:text-base transition-colors"
-          >
-            Nosotros
-          </a>
-          <a 
             href="https://www.instagram.com/ane_dulce_sabor" 
             target="_blank"
             rel="noopener noreferrer"
@@ -53,4 +45,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default ProductsNavbar

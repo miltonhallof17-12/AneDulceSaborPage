@@ -6,7 +6,7 @@ interface CategoryFilterProps {
 const categories = [
   { id: 'tentaciones', name: 'Tentaciones', color: 'bg-[#D85C56]' },
   { id: 'postres', name: 'Postres', color: 'bg-[#F26861]' },
-  { id: 'tortas', name: 'Tortas', color: 'bg-[#f8ab4c]' }
+  { id: 'tortas', name: 'Tortas', color: 'bg-[#D85C56]' }
 ]
 
 const CategoryFilter = ({ selectedCategory, onCategoryChange }: CategoryFilterProps) => {
