@@ -9,13 +9,13 @@
     "imagePosition": "50% 40%"
   },
   {
-    "id": "rogel-dulce-de-leche",
-    "title": "Rogel Dulce de Leche",
-    "subtitle": "Capas de rogel con dulce de leche y merengue italiano",
-    "image": "/Rogel-DulceDeLeche-Porcion.webp",
+    "id": "alfajores-artesanales",
+    "title": "Alfajores Artesanales",
+    "subtitle": "Alfajores Artesanales con capas de chocolate y crema",
+    "image": "/alfajores-artesanales.webp",
     "buttonText": "Encargar Ahora",
-    "category": "tortas",
-    "imagePosition": "20% 20%"
+    "category": "tentaciones",
+    "imagePosition": "80% 20%"
   },
   {
     "id": "torta-helada-cadbury",
@@ -52,5 +52,60 @@
     "buttonText": "Encargar Ahora",
     "category": "tentaciones",
     "imagePosition": "80% 20%"
+  },
+  {
+    "id": "chocotorta",
+    "title": "Chocotorta",
+    "subtitle": "Chocotorta con capas de chocolinas y crema",
+    "image": "/chocotorta.webp",
+    "buttonText": "Encargar Ahora",
+    "category": "postres",
+    "imagePosition": "80% 20%"
+  },
+  {
+    "id": "torta-blanco-negro",
+    "title": "Torta Blanco-Negro",
+    "subtitle": "Torta Blanco-Negro con capas de chocolate y crema",
+    "image": "/torta-blanco-negro.webp",
+    "buttonText": "Encargar Ahora",
+    "category": "tortas",
+    "imagePosition": "80% 20%"
+  },
+  {
+    "id": "torta-ricota",
+    "title": "Torta Ricota",
+    "subtitle": "Torta Ricota con capas de chocolate y crema",
+    "image": "/torta-ricota.webp",
+    "buttonText": "Encargar Ahora",
+    "category": "tortas",
+    "imagePosition": "80% 20%"
+  },
+  {
+    "id": "rogel-dulce-de-leche",
+    "title": "Rogel Dulce de Leche",
+    "subtitle": "Capas de rogel con dulce de leche y merengue italiano",
+    "image": "/Rogel-DulceDeLeche-Porcion.webp",
+    "buttonText": "Encargar Ahora",
+    "category": "tortas",
+    "imagePosition": "20% 20%"
+  },
+  {
+    "id": "cookies-artesanales",
+    "title": "Cookies Artesanales",
+    "subtitle": "Cookies Artesanales con capas de chocolate y crema",
+    "image": "/cookies-artesanales.webp",
+    "buttonText": "Encargar Ahora",
+    "category": "tentaciones",
+    "imagePosition": "80% 20%"
+  },
+  {
+    "id": "torta-chaja",
+    "title": "Torta Chaja",
+    "subtitle": "Torta Chaja con capas de chocolate y crema",
+    "image": "/torta-chaja.webp",
+    "buttonText": "Encargar Ahora",
+    "category": "tentaciones",
+    "imagePosition": "80% 20%"
   }
 ]
+

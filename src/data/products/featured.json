@@ -4,48 +4,55 @@
     "title": "Cheesecake Frutos Rojos",
     "subtitle": "Delicioso cheesecake con frescos frutos rojos",
     "image": "/CheeseCake-FrutosRojos-Porcion.webp",
-    "buttonText": "Encargar Ahora"
+    "buttonText": "Encargar Ahora",
+    "imagePosition": "40% 40%"
   },
   {
     "id": "alfajores-dulce-leche",
     "title": "Alfajores Artesanales",
     "subtitle": "Tradicionales alfajores con dulce de leche",
     "image": "/Alafajores-Artesanales-DulceDeLeche.webp",
-    "buttonText": "Encargar Ahora"
+    "buttonText": "Encargar Ahora",
+    "imagePosition": "50% 30%"
   },
   {
     "id": "mini-cakes",
     "title": "Mini Cakes Artesanales",
     "subtitle": "Pequeños pasteles elaborados con amor",
     "image": "/MiniCakes-Artesanales.webp",
-    "buttonText": "Encargar Ahora"
+    "buttonText": "Encargar Ahora",
+    "imagePosition": "30% 40%"
   },
   {
     "id": "huevos-pascua-cremosos",
     "title": "Huevos de Pascua Creamosos",
     "subtitle": "Descubre nuestra colección exclusiva",
-    "image": "/huevos-pascua-cremosos.webp",
-    "buttonText": "Encargar Ahora"
+    "image": "/Huevo-Pascua-Cremoso.webp",
+    "buttonText": "Encargar Ahora",
+    "imagePosition": "60% 70%"
   },
   {
     "id": "mini-postres",
     "title": "Mini Postres",
     "subtitle": "Deliciosos mini postres",
-    "image": "/mini-postres.webp",
-    "buttonText": "Encargar Ahora"
+    "image": "/Mini-Postres.webp",
+    "buttonText": "Encargar Ahora",
+    "imagePosition": "50% 50%"
   },
   {
     "id": "brownie-kinder-bueno",
     "title": "Brownie Kinder Bueno",
     "subtitle": "Delicioso brownie con Kinder Bueno",
     "image": "/brownie-kinder-bueno.webp",
-    "buttonText": "Encargar Ahora"
+    "buttonText": "Encargar Ahora",
+    "imagePosition": "70% 30%"
   },
   {
     "id": "cookies-artesanales",
     "title": "Cookies Artesanales",
     "subtitle": "Deliciosos cookies artesanales",
-    "image": "/cookies-artesanales.webp",
-    "buttonText": "Encargar Ahora"
+    "image": "/Cookies-Artesanales.webp",
+    "buttonText": "Encargar Ahora",
+    "imagePosition": "40% 30%"
   }
 ]
