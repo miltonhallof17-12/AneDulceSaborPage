@@ -8,6 +8,7 @@ import SobreNosotros from '../components/SobreNosotros'
 import Footer from '../components/Footer'
 import SEO from '../components/SEO'
 import StructuredData from '../components/StructuredData'
+import GlowingButton from '../components/GlowingButton'
 import useInView from '../hooks/useInView'
 
 const HomePage = () => {
@@ -78,11 +79,10 @@ const HomePage = () => {
       {/* CTA Section */}
       <section className='px-4 sm:px-6 lg:px-8 py-12'>
         <div className='text-center'>
-          <Link 
-            to="/catalogo"
-            className="inline-block bg-[#D85C56] text-white px-8 py-3 rounded-full font-semibold text-lg hover:bg-[#c74a44] transform hover:scale-105 transition-all duration-300 shadow-lg"
-          >
-            Ver Catálogo
+          <Link to="/catalogo">
+            <GlowingButton className="px-12 py-4 text-xl">
+              Ver Catálogo
+            </GlowingButton>
           </Link>
           <p className="mt-4 text-gray-600">
             Explora nuestra completa colección de dulces artesanales

@@ -6,6 +6,12 @@ interface ProductCardProps {
 }
 
 const ProductCard = ({ product }: ProductCardProps) => {
+  // Helper function to create WhatsApp message URL
+  const createWhatsAppMessage = (productName: string) => {
+    const message = encodeURIComponent(`¡Hola! Me gustaría encargar: ${productName}`)
+    return `https://wa.me/5493484407826?text=${message}`
+  }
+
   // Helper function to determine if it's a percentage value or predefined position
   const isPercentagePosition = (position?: string) => {
     return position && position.includes('%')
@@ -51,7 +57,14 @@ const ProductCard = ({ product }: ProductCardProps) => {
       <div className="p-3">
         <h4 className="text-base sm:text-lg font-semibold text-[#D85C56] mb-2 italic text-center">{product.title}</h4>
         <p className="text-xs sm:text-sm text-gray-600 mb-3 text-center">{product.subtitle}</p>
-        <GlowingButton className="w-full text-sm">{product.buttonText}</GlowingButton>
+        <a 
+          href={createWhatsAppMessage(product.title)}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block"
+        >
+          <GlowingButton className="w-full text-sm">{product.buttonText}</GlowingButton>
+        </a>
       </div>
     </div>
   )

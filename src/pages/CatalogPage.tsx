@@ -6,9 +6,8 @@ import CategoryFilter from '../components/CategoryFilter'
 import ProductsGrid from '../components/ProductsGrid'
 import ContactButtons from '../components/ContactButtons'
 import SEO from '../components/SEO'
-import StructuredData from '../components/StructuredData'
 import useInView from '../hooks/useInView'
-import { searchProducts, getFilteredProducts, getCatalogProducts } from '../services/productService'
+import { searchProducts, getFilteredProducts } from '../services/productService'
 
 const CatalogPage = () => {
   const [searchTerm, setSearchTerm] = useState('')
@@ -17,20 +16,6 @@ const CatalogPage = () => {
   // Filter products by category first, then by search term
   const categoryFilteredProducts = getFilteredProducts(selectedCategory)
   const filteredProducts = searchTerm ? searchProducts(searchTerm) : categoryFilteredProducts
-
-  // ItemList Schema for catalog page
-  const itemListData = {
-    name: "Catálogo de Productos - Ane Dulce Sabor",
-    description: "Explora nuestra completa selección de dulces artesanales, incluyendo tortas, postres y tentaciones únicas.",
-    url: "https://anedulcesabor.com/catalogo",
-    items: filteredProducts.map((product, index) => ({
-      position: index + 1,
-      name: product.title,
-      description: product.subtitle,
-      image: product.image,
-      url: `https://anedulcesabor.com/catalogo#${product.id}`
-    }))
-  }
 
   // refs
   const searchBarRef = useRef<HTMLElement>(null)
@@ -50,8 +35,6 @@ const CatalogPage = () => {
         canonical="https://anedulcesabor.com/catalogo"
         image="/Logo.webp"
       />
-      
-      <StructuredData type="ItemList" data={itemListData} />
       
       <div className="min-h-screen bg-[#f5efe6] overflow-x-hidden">
         <ProductsNavbar />

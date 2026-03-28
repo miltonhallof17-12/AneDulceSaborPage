@@ -1,5 +1,17 @@
 User-agent: *
 Allow: /
 
-# Sitemap
+# Block common non-content directories
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /src/
+
+# Allow access to important files
+Allow: /robots.txt
+Allow: /sitemap.xml
+
+Crawl-delay: 1
+
 Sitemap: https://anedulcesabor.com/sitemap.xml

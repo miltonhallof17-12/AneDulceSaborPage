@@ -3,7 +3,7 @@ const ContactButtons = () => {
     <>
       {/* WhatsApp Button - Bottom Left */}
       <a 
-        href="#" 
+        href="https://wa.me/5493484407826?text=" 
         target="_blank"
         className="fixed bottom-6 left-6 rounded-full p-4 w-20 h-20 flex items-center justify-center transition-all duration-1000 transform shadow-lg z-50 opacity-100 translate-y-0 scale-100"
       >

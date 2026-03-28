@@ -1,5 +1,6 @@
 
 import GlowingButton from './GlowingButton'
+import { Link } from 'react-router-dom'
 import { useCarousel } from '../hooks/useCarousel'
 
 interface HeroProps {
@@ -72,9 +73,16 @@ const Hero = ({ isVisible }: HeroProps) => {
                 <p className="text-lg sm:text-xl text-white drop-shadow-md mb-8">
                   {slide.subtitle}
                 </p>
-                <GlowingButton>
-                  Encargar Ahora
-                </GlowingButton>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                  <Link to="/catalogo">
+                    <GlowingButton>
+                      Ver Catálogo
+                    </GlowingButton>
+                  </Link>
+                  <GlowingButton>
+                    Encargar Ahora
+                  </GlowingButton>
+                </div>
               </div>
             </div>
           </div>

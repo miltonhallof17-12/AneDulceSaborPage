@@ -1,5 +1,3 @@
-import GlowingButton from './GlowingButton'
-
 interface SobreNosotrosProps {
   isVisible: boolean
 }
@@ -30,12 +28,6 @@ const SobreNosotros = ({ isVisible }: SobreNosotrosProps) => {
             Creamos experiencias dulces con ingredientes reales, 
             cuidando cada detalle para que cada bocado sea especial.
           </p>
-
-          <div className="flex justify-center lg:justify-start">
-            <GlowingButton>
-              Conocé más
-            </GlowingButton>
-          </div>
         </div>
       </div>
     </section>

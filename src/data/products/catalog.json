@@ -57,10 +57,10 @@
     "id": "chocotorta",
     "title": "Chocotorta",
     "subtitle": "Chocotorta con capas de chocolinas y crema",
-    "image": "/chocotorta.webp",
+    "image": "/Chocotorta.webp",
     "buttonText": "Encargar Ahora",
     "category": "postres",
-    "imagePosition": "80% 20%"
+    "imagePosition": "80% 40%"
   },
   {
     "id": "torta-blanco-negro",

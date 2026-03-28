@@ -8,6 +8,12 @@ interface DestacadosProps {
 }
 
 const Destacados = ({ isVisible }: DestacadosProps) => {
+  // Helper function to create WhatsApp message URL
+  const createWhatsAppMessage = (productName: string) => {
+    const message = encodeURIComponent(`¡Hola! Me gustaría encargar: ${productName}`)
+    return `https://wa.me/5493484407826?text=${message}`
+  }
+
   const [cardPositions, setCardPositions] = useState<number[]>([])
   const animationRef = useRef<number | null>(null)
 
@@ -51,7 +57,7 @@ const Destacados = ({ isVisible }: DestacadosProps) => {
   useEffect(() => {
     const animate = () => {
       setCardPositions(prevPositions => {
-        return prevPositions.map((position, index) => {
+        return prevPositions.map((position) => {
           const newPosition = position - 1
           
           // When card leaves screen, move it to the end
@@ -126,9 +132,16 @@ const Destacados = ({ isVisible }: DestacadosProps) => {
                   <p className="text-black text-sm mb-3">
                     {product.subtitle}
                   </p>
-                  <GlowingButton className="w-full">
-                    {product.buttonText}
-                  </GlowingButton>
+                  <a 
+                    href={createWhatsAppMessage(product.title)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block"
+                  >
+                    <GlowingButton className="w-full">
+                      {product.buttonText}
+                    </GlowingButton>
+                  </a>
                 </div>
               </div>
             )

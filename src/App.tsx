@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { Suspense, lazy } from 'react'
 import HomePage from './pages/HomePage'
-//import CatalogPage from './pages/CatalogPage'
 import LoadingSpinner from './components/LoadingSpinner'
 
 // Lazy load catalog page for better performance
