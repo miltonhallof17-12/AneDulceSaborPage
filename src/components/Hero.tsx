@@ -79,7 +79,12 @@ const Hero = ({ isVisible }: HeroProps) => {
                       Ver Catálogo
                     </GlowingButton>
                   </Link>
-                  <GlowingButton>
+                  <GlowingButton 
+                    as="a" 
+                    href="https://wa.me/5493484407826?text=" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Encargar Ahora
                   </GlowingButton>
                 </div>

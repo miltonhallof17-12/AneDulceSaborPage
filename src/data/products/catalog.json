@@ -2,7 +2,7 @@
   {
     "id": "cheesecakes-frutos-rojos",
     "title": "Cheesecakes Frutos Rojos",
-    "subtitle": "Cheesecakes con frescos frutos rojos",
+    "subtitle": "Base crocante con toppings de frutos rojos",
     "image": "/CheeseCake-FrutosRojos-Mordido.webp",
     "buttonText": "Encargar Ahora",
     "category": "tortas",
@@ -11,7 +11,7 @@
   {
     "id": "alfajores-artesanales",
     "title": "Alfajores Artesanales",
-    "subtitle": "Alfajores Artesanales con capas de chocolate y crema",
+    "subtitle": "Rellenos con abundante dulce de leche y cobertura artesanal",
     "image": "/Alafajores-Artesanales-DulceDeLeche.webp",
     "buttonText": "Encargar Ahora",
     "category": "tentaciones",
@@ -20,7 +20,7 @@
   {
     "id": "torta-helada-cadbury",
     "title": "Torta Helada Cadbury",
-    "subtitle": "Torta Helada Cadbury con capas de chocolate y crema",
+    "subtitle": "Base de chocolate con un relleno helado cremoso y Cadbury",
     "image": "/Torta-Helada-Cadbury.webp",
     "buttonText": "Encargar Ahora",
     "category": "postres",
@@ -29,7 +29,7 @@
   {
     "id": "brownie-kinder-bueno",
     "title": "Brownie Kinder Bueno",
-    "subtitle": "Brownie Kinder Bueno con capas de chocolate y crema",
+    "subtitle": "Brownie húmedo y chocolatoso, cubierto con una crema suave y coronado con trozos de Kinder",
     "image": "/Brownie-Kinder-Bueno.webp",
     "buttonText": "Encargar Ahora",
     "category": "postres",
@@ -38,7 +38,7 @@
   {
     "id": "mini-postres",
     "title": "Mini Postres",
-    "subtitle": "Tiramisu-Crema oreo-Chocotorta-Crema de limón-Torta Matilda",
+    "subtitle": "Tiramisu-Crema oreo-Chocotorta-Crema de limón-Torta Matilda-Y MAS",
     "image": "/Mini-Postres.webp",
     "buttonText": "Encargar Ahora",
     "category": "tentaciones",
@@ -47,7 +47,7 @@
   {
     "id": "mini-cakes",
     "title": "Mini Cakes",
-    "subtitle": "Lemon pie-Cheesecake-Brownie-Rogel-Torta de coco",
+    "subtitle": "Lemon pie-Cheesecake-Brownie-Rogel-Torta de coco-Y MAS",
     "image": "/Mini-Cakes-Bandeja.webp",
     "buttonText": "Encargar Ahora",
     "category": "tentaciones",
@@ -56,7 +56,7 @@
   {
     "id": "chocotorta",
     "title": "Chocotorta",
-    "subtitle": "Chocotorta con capas de chocolinas y crema",
+    "subtitle": "Clasica chocotorta con capas de galleta, crema y dulce de leche",
     "image": "/Chocotorta.webp",
     "buttonText": "Encargar Ahora",
     "category": "postres",
@@ -65,7 +65,7 @@
   {
     "id": "torta-blanco-negro",
     "title": "Torta Blanco-Negro",
-    "subtitle": "Torta Blanco-Negro con capas de chocolate y crema",
+    "subtitle": "Una torta dos mundos de sabores",
     "image": "/Torta-Blanco-Negro.webp",
     "buttonText": "Encargar Ahora",
     "category": "tortas",
@@ -74,11 +74,11 @@
   {
     "id": "torta-ricota",
     "title": "Torta Ricota",
-    "subtitle": "Torta Ricota con capas de chocolate y crema",
+    "subtitle": "Clasica torta ricota, dulce y crujiente",
     "image": "/Torta-Ricota.webp",
     "buttonText": "Encargar Ahora",
     "category": "tortas",
-    "imagePosition": "80% 30%"
+    "imagePosition": "80% 60%"
   },
   {
     "id": "rogel-dulce-de-leche",
@@ -92,7 +92,7 @@
   {
     "id": "cookies-artesanales",
     "title": "Cookies Artesanales",
-    "subtitle": "Cookies Artesanales con capas de chocolate y crema",
+    "subtitle": "Cookies Artesanales con corazon de chocolate",
     "image": "/Cookies-Artesanales.webp",
     "buttonText": "Encargar Ahora",
     "category": "tentaciones",
@@ -101,7 +101,7 @@
   {
     "id": "torta-chaja",
     "title": "Torta Chaja",
-    "subtitle": "Torta Chaja con capas de chocolate y crema",
+    "subtitle": "Torta Chaja con capas de crema, durazno y dulce de leche",
     "image": "/Torta-Chaja.webp",
     "buttonText": "Encargar Ahora",
     "category": "tentaciones",
